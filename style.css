@@ -10,6 +10,19 @@ p{
 #banner{
 width: 100%;
 }
+.principal{
+  background-color: #CCCCCC;
+  padding: 30px;
+}
 .texto-centralizado{
   text-align: center;
+}
+ul{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  margin-right: 15%;
+}
+.imagem-beneficios{
+  width: 50%;
 }
