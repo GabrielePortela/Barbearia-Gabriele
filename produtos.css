@@ -36,6 +36,21 @@ nav a:hover{
   margin: 0 auto ; 
   padding: 50px;
 }
+
+.produtos h2{
+  font-size: 30px;
+  font-weight: bold;
+}
+.produto-descricao{
+  font-size: 18px;
+}
+
+.produtro-preco{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 40px 0; 
+}
+
 .produtos li{
   display: inline-block;
   border: 1px solid #000000;
@@ -47,3 +62,13 @@ nav a:hover{
   box-sizing: border-box;
   padding: 30px 20px;
 } 
+footer{
+  background: url("bg.jpg");
+  text-align: center;
+  padding: 40px 0;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin-top: 20px;
+}
