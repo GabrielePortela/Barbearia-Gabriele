@@ -93,4 +93,6 @@ main{
 .input-padrao{
   display: block;
   margin: 0 0;
+  padding: 10px 25px;
+  width: 50%
 }
