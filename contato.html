@@ -38,10 +38,25 @@
 
 <fieldset>  
   <legend>Como prefere o nosso contato?</legend>
-<label> <input type="radio"> Email </label>
-  <label> <input type="radio"> Telefone </label>
-  <label> <input type="radio"> WhatsApp </label>
+<label for="radio-email"> <input type="radio" name="contato" velue= "email" id="radio-email"> Email </label>
+  
+  <label for= "radio-telefone"> <input type="radio" name= "contato" velue="telefone" id="radio-telefone"> Telefone </label>
+  
+  <label for="radio-whatsapp"> <input type="radio" name="contato" velue="WhatsApp" id="radio-whatsapp" checked> WhatsApp </label>
 </fieldset>
+
+     <fildset>
+
+       <legend>Qual horário você prefere ser atendido?</legend>
+       <select>
+         <option>Manhã</option>
+         <option>Tarde</option>
+         <option>Noite</option>
+       </select>
+       
+     </fildset>
+
+<label> <input type="checkbox" class="checkbox" checked> Gostaria de receber nossas ofertas por e-mail?</label>
      
      <input type="submit" value="enviar o formulário" class="enviar"> 
       
